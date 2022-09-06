@@ -1,0 +1,54 @@
+#include<stdio.h>
+
+
+#include<string.h>
+
+
+void main()
+
+
+{
+
+
+	int n,m;
+
+
+	scanf("%d%d",&n,&m);
+
+
+	{
+
+
+	display(n,m)
+
+
+ }
+
+
+void display(int start,int end)
+
+
+{
+
+
+	if(start>end)
+
+
+	return;
+
+
+	else
+
+
+	prntf("%d\n",start);
+
+
+	display(start+1,end);
+
+
+}
+
+
+}
+
+Footer
